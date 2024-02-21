@@ -257,6 +257,10 @@ has query_parameters => (
             $self->uri->query_form,
             (map { $_ => '' } $self->uri->query_keywords),
         );
+        for my $value (values %params) {
+            $value = ''
+                if !defined $value;
+        }
         return {
             map { $self->_decode($_) } map { $_ => $params{$_} } keys %params
         };
