@@ -2,6 +2,7 @@ package Web::Request::Types;
 
 use strict;
 use warnings;
+# ABSTRACT: package defining subtypes for this distribution
 
 use Moose::Util::TypeConstraints;
 
