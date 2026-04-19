@@ -1,4 +1,5 @@
 package Web::Request;
+
 use Moose;
 # ABSTRACT: common request class for web frameworks
 

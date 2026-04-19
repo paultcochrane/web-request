@@ -1,4 +1,5 @@
 package Web::Request::Upload;
+
 use Moose;
 # ABSTRACT: class representing a file upload
 
