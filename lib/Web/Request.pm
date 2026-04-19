@@ -723,7 +723,8 @@ single value.
 
 =method new_response(@params)
 
-Returns a new response object, passing C<@params> to its constructor.
+Returns a new response object, passing C<@params> to its constructor. If the
+request's encoding is defined, this is applied to the response object.
 
 =method env
 
