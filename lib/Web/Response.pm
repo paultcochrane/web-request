@@ -1,4 +1,5 @@
 package Web::Response;
+
 use Moose;
 # ABSTRACT: common response class for web frameworks
 
