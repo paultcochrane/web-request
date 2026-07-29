@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
-      - run: cpanm --notest Dist::Zilla
+      - run: cpanm --notest Dist::Zilla || cat ~/.cpanm/build.log
       - run: dzil authordeps --missing | cpanm
       - run: dzil listdeps --author --missing | cpanm
       - run: dzil test --author --release
