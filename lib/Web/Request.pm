@@ -262,7 +262,7 @@ has query_parameters => (
                 if !defined $value;
         }
         return {
-            map { $self->_decode($_) } map { $_ => $params{$_} } keys %params
+            map { $self->_decode($_) } %params
         };
     },
 );
