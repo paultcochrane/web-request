@@ -766,7 +766,7 @@ iso8859-1. This can be overridden in a subclass.
 No known bugs.
 
 Please report any bugs to GitHub Issues at
-L<https://github.com/doy/web-request/issues>.
+L<https://github.com/paultcochrane/web-request/issues>.
 
 =head1 SEE ALSO
 
@@ -789,7 +789,7 @@ L<https://metacpan.org/release/Web-Request>
 
 =item * Github
 
-L<https://github.com/doy/web-request>
+L<https://github.com/paultcochrane/web-request>
 
 =item * RT: CPAN's request tracker
 
